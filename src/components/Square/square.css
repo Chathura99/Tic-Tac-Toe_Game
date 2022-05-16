@@ -1,0 +1,10 @@
+.square{
+    height: 50px;
+    width: 50px;
+    border: 1px solid rgb(0, 0, 0);
+    text-align: center;
+    line-height: 50px;
+    font-size: 1.3rem;
+    background-color: rgb(250, 195, 124);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
