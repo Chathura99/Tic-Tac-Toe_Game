@@ -12,6 +12,7 @@ const Game: React.FC = () => {
     const [history, setHistory] = useState<SquareValue[][] | null>(null);
     //view winner
     const [winner, setWinner] = useState<String | null>(null);
+    
     const SquareClick = (value: number) => {
         console.log("from parent(Board called) : value " + value);
         // console.log(currentGame[value]);

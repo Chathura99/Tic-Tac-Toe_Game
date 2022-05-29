@@ -1,4 +1,5 @@
 import { SquareValue } from "../../types/types";
+//SquareValue = "X" | "O" | null
 import "./square.css"
 
 type SqureProps = {

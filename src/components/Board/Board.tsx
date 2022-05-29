@@ -9,10 +9,6 @@ type BoardProps = {
 }
 
 const Board: React.FC<BoardProps> = (props) => {
-    // const [x,setX]=useState<number>(0);
-    // const incrementX = () => {
-    //     setX(x+1);
-    // }
 
     const renderSquare = (value:number) =>{
         // call from child(square)

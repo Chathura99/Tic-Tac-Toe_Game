@@ -1,7 +1,7 @@
 import { SquareValue } from "../../types/types";
 import NextPlayer from "./NextPlayer";
 import "./moves.css";
-
+//parameter types from Game.tsx
 type moveProps = {
     history: SquareValue[][] | null;
     nextPlayer: String
@@ -12,6 +12,7 @@ const Moves: React.FC<moveProps> = (props) => {
     return (
         <div>
             {
+                //if winner is avail
                 props.winner ? <h2> {props.winner} You Won !</h2> :
                     <div>
                         <NextPlayer nextPlayer={props.nextPlayer} />
