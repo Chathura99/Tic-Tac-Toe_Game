@@ -3,7 +3,8 @@ type nextPlayerProps = {
 }
 const NextPlayer:React.FC<nextPlayerProps> = (props) => {
     return (
-        <div>
+        
+        <div >
             <h3>Next Player : {props.nextPlayer}</h3>
         </div>
     );

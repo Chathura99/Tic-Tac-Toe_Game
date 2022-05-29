@@ -4,7 +4,7 @@ import Game from './components/Game/Game';
 
 function App() {
   return (
-    <div>
+    <div className='gamebackground'>
       <h1>Tic Tac Toe
     </h1>
     <Game/>
